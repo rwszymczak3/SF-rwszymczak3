@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assay_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Assay Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AMES</fullName>
+                <default>false</default>
+                <label>AMES</label>
+            </value>
+            <value>
+                <fullName>MN</fullName>
+                <default>false</default>
+                <label>MN</label>
+            </value>
+            <value>
+                <fullName>NRU</fullName>
+                <default>false</default>
+                <label>NRU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
